@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit";
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.mini-circle {
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1s;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    z-index: 10000;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.animation {
+    width: fit-content;
+    overflow: hidden;
+}
+
+.animation .anim-elem {
+    transform: translateY(100%);
+}
+
+#main {
+    width: 100%;
+    background-color: black;
+}
+
+#hero {
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#nav {
+    width: 100%;
+    padding: 30px 40px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#heading {
+    margin-top: 30px;
+}
+
+#heading h1 {
+    margin-left: 40px;
+    font-size: 10vw;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 1;
+    opacity: .5;
+}
+
+#heading #second-h1 {
+    margin-left: 230px;
+}
+
+.heading-txt {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.heading-txt h5 {
+    text-align: right;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#sub-headings {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-top: 150px;
+    padding-right: 40px;
+}
+
+#sub-headings h5 {
+    text-align: right;
+    margin-top: .5vw;
+    text-transform: uppercase;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+#hero-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    padding: 0 3vw;
+}
+
+#hero-footer a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+#hero-footer a:hover {
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+}
+
+#hero-footer #icon-set {
+    display: flex;
+    gap: 5px;
+}
+
+#hero-footer #circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #AAAAAA;
+    color: black;
+    border-radius: 50%;
+}
+
+#second-pg {
+    padding-right: 10vw;
+    padding-top: 200px;
+    width: 100%;
+}
+
+.element {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3.5vw 3vw;
+    padding-right: 0;
+    border-top: 1px solid #AAAAAA;
+    color: white;
+}
+
+.element h1 {
+    text-transform: uppercase;
+    font-size: 6vw;
+    color: white;
+    font-weight: 300;
+}
+
+.lastelem {
+    border-bottom: 1px solid #AAAAAA;
+}
+
+.element img {
+    opacity: 0;
+    height: 140%;
+    z-index: 1000;
+    position: absolute;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 70px;
+    padding-left: 30vw;
+    color: white;
+    width: 100%;
+    padding: 10vw 20vw;
+}
+
+.about img {
+    width: 200px;
+}
+
+.txt-about {
+    width: 35rem;
+}
+
+.txt-about h5 {
+    text-transform: uppercase;
+    opacity: .5;
+    margin-bottom: 10px;
+}
+
+.txt-about p {
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.txt-about a {
+    padding: 5px 22px;
+    border: 1px solid white;
+    border-radius: 100px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.txt-about a:hover {
+    background-color: white;
+    color: black;
+}
+
+.subscribe {
+    color: #fff;
+    padding: 50px 50px;
+    padding-bottom: 7vw;
+}
+
+.subscribe h5, h3 {
+    text-transform: uppercase;
+}
+
+.subscribe h5 {
+    opacity: 0.5;
+}
+
+.subscribe h3 {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.subscribe h3:hover {
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+}
+
+.footer {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 30px;
+}
+
+.footer-left {
+    display: flex;
+    gap: 20px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.footer-right {
+    display: flex;
+    gap: 40px;
+    color: #fff;
+}
+
+.footer-right a:hover {
+    text-decoration-line: underline;
+    text-decoration-thickness: 3px;
+}
